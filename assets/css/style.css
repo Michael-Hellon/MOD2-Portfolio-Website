@@ -6,55 +6,69 @@
 }
 
 body {
-   background-color: beige;
-  }
-
-
-header {
-    font-size: 20px;
-    display: inline-block; 
-    width: 50%;
-    padding: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e8e8e8;
 }
 
- 
+header {
+    display: inline-block; 
+    width: 100%;
+    height: 8rem;
+    padding-top: 20px;
+    padding-left: 6rem;
+    font-family: serif;
+    background: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size:6rem;
+}
+
 ul {
    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
     margin-right: 20px;
-    padding-top: 15px;
+    
     float: right;
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
-}
+    /*padding-top: ;  */
 }
 
 a { 
     display: inline-block;
     text-decoration: none;
     color: black;
-    float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 3rem;
     list-style-type: none;
+    margin-top: -1rem;
     margin-right: 20px;
-    padding-top: 15px;
-    text-align: match-parent;
-  
-   
-
-
-
+    padding-top: 3rem;
+    
 }
 
+.moto {
+    background-image: url("../images/stone.jpg");
+    height: 6rem;
+    background-size: cover;
+}
 
-nav{
-    padding-top: 5px;
-    color: black;
+.prework {
+    height: 600px;
+    display: block;
+    margin: auto;
     
-    margin-top: 1px;
-    text-align: right;
-  }
+}
+
+.landing {
+    scale:1em;
+    position: relative;
+}
+
+.horiseon {
+    height: 30px;
+    position: relative;
+}
